@@ -2,7 +2,6 @@ from requests import post, get
 from web3.auto import w3
 from threading import Thread
 import ctypes
-from ctypes import windll
 from sys import stderr
 from loguru import logger
 from urllib3 import disable_warnings
